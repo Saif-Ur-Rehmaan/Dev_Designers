@@ -1,0 +1,232 @@
+{
+    "nav": {
+        "categories": [
+            {
+                "heading": "Flowering Plants",
+                "categories": [
+                    {
+                        "name": "Roses"
+                    },
+                    {
+                        "name": "Tulips"
+                    },
+                    {
+                        "name": "Daisies"
+                    },
+                    {
+                        "name": "Lilies"
+                    },
+                    {
+                        "name": "Sunflowers"
+                    }
+                ]
+            },
+            {
+                "heading": "Succulents",
+                "categories": [
+                    {
+                        "name": "Aloe"
+                    },
+                    {
+                        "name": "Sedum"
+                    },
+                    {
+                        "name": "Echeveria"
+                    },
+                    {
+                        "name": "Haworthia"
+                    },
+                    {
+                        "name": "Jade Plant"
+                    }
+                ]
+            },
+            {
+                "heading": "Herbs",
+                "categories": [
+                    {
+                        "name": "Basil"
+                    },
+                    {
+                        "name": "Mint"
+                    },
+                    {
+                        "name": "Thyme"
+                    },
+                    {
+                        "name": "Rosemary"
+                    },
+                    {
+                        "name": "Parsley"
+                    }
+                ]
+            },
+            {
+                "heading": "Fruit Trees",
+                "categories": [
+                    {
+                        "name": "Apple"
+                    },
+                    {
+                        "name": "Orange"
+                    },
+                    {
+                        "name": "Mango"
+                    },
+                    {
+                        "name": "Lemon"
+                    },
+                    {
+                        "name": "Peach"
+                    }
+                ]
+            }
+        ],
+        "information": {
+            "type Of Plants": [
+                {
+                    "name": "Flowering",
+                    "ImageName": ""
+                },
+                {
+                    "name": "Plants",
+                    "ImageName": ""
+                },
+                {
+                    "name": "Succulents",
+                    "ImageName": ""
+                },
+                {
+                    "name": "Trees and Shrubs",
+                    "ImageName": ""
+                },
+                {
+                    "name": "Ferns",
+                    "ImageName": ""
+                },
+                {
+                    "name": "Aquatic Plants",
+                    "ImageName": ""
+                },
+                {
+                    "name": "Trees and Shrubs",
+                    "ImageName": ""
+                },
+                {
+                    "name": "Ferns",
+                    "ImageName": ""
+                },
+                {
+                    "name": "Aquatic Plants",
+                    "ImageName": ""
+                }
+            ],
+            "Plant Care Tip": [
+                {
+                    "name": "Watering Tips",
+                    "ImageName": ""
+                },
+                {
+                    "name": "Sunlight Requirements",
+                    "ImageName": ""
+                },
+                {
+                    "name": "Soil and Fertilization",
+                    "ImageName": ""
+                },
+                {
+                    "name": "Pruning and Trimming",
+                    "ImageName": ""
+                },
+                {
+                    "name": "Pest and Disease Management",
+                    "ImageName": ""
+                },
+                {
+                    "name": "Aquatic Plants",
+                    "ImageName": ""
+                },
+                {
+                    "name": "Trees and Shrubs",
+                    "ImageName": ""
+                },
+                {
+                    "name": "Ferns",
+                    "ImageName": ""
+                },
+                {
+                    "name": "Aquatic Plants",
+                    "ImageName": ""
+                }
+            ]
+        }
+    },
+    "products": [
+        {
+            "id": 1,
+            "name": "Plant 1",
+            "price": 19.99,
+            "image": "bamboo.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Plant 2",
+            "price": 24.99,
+            "image": "bleedin.jpg"
+        },
+        {
+            "id": 1,
+            "name": "Plant 1",
+            "price": 19.99,
+            "image": "bamboo.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Plant 2",
+            "price": 24.99,
+            "image": "bleedin.jpg"
+        },
+        {
+            "id": 1,
+            "name": "Plant 1",
+            "price": 19.99,
+            "image": "bamboo.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Plant 2",
+            "price": 24.99,
+            "image": "bleedin.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Plant 2",
+            "price": 24.99,
+            "image": "bleedin.jpg"
+        },
+        {
+            "id": 1,
+            "name": "Plant 1",
+            "price": 19.99,
+            "image": "bamboo.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Plant 2",
+            "price": 24.99,
+            "image": "bleedin.jpg"
+        },
+        {
+            "id": 1,
+            "name": "Plant 1",
+            "price": 19.99,
+            "image": "bamboo.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Plant 2",
+            "price": 24.99,
+            "image": "bleedin.jpg"
+        }
+    ]
+}

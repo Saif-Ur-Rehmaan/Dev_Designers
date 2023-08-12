@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 1344 -->
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Palace</title>
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;600;700;900&display=swap"
+        rel="stylesheet">
+
+    <!-- icon link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body style="overflow-x: hidden;">
+
+    <div class="container-fluid p-0 m-0 _av" style=" overflow: hidden;">
+        <!-- nav -->
+        <div style="height: fit-content;" class="">
+            <nav class="nav text-slide-right" style="background: transparent !important;" id="nv-st-sc">
+                <div class="nav-row-1">
+                    <a href="index.html">
+                        <h1 style="font-weight: bold;">PlantPalace</h1>
+                        <!-- <img src="icons/logo.svg" alt="logo" id="logo"> -->
+
+                    </a>
+                </div>
+                <ul class="nav-row-2">
+                    <li class="li-nv-dpdn-hover-btn li-3">
+                        <a href="index.html" class=" nav-links li-anima">
+                            Home
+                        </a>
+
+                    </li>
+                    <li class="li-nv-dpdn-hover-btn li-2">
+                        <a class=" nav-links li-anima">
+                            Catagory
+                        </a>
+                        <div class="drop-down-of-nav  nav-link-2">
+                            <div class="pages">
+                                <div class="container-fluid ">
+                                    <div class="row JS_CAT_FUNC" style="flex-wrap: nowrap;">
+                                        <!-- added using js -->
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="li-nv-dpdn-hover-btn li-2">
+                        <a class=" nav-links li-anima">
+                            Information
+                        </a>
+                        <div class="drop-down-of-nav  nav-link-2">
+                            <div class="pages">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <h1 class="col-12" style="font-size: 2.5rem; border-bottom: 1px solid black;">
+                                            Plant
+                                            Information</h1>
+                                        <div class="row" style="justify-content: center; align-items: center;">
+                                            <div class="col-12 heading text-center">
+
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <h3 class="mt-4 text-start mb-4" style=" font-weight: bold;">
+                                                            Types
+                                                            Of Plants</h3>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <ul class="row cata_JS_FUNC_CLASS"
+                                                            style="gap: 2em ;list-style-type: none;">
+                                                            <!-- added using js -->
+
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <h3 class="mt-4 text-start mb-4" style=" font-weight: bold;">
+                                                            Plant
+                                                            Care Tips</h3>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <ul class="row cata_JS_FUNC_2"
+                                                            style="gap: 2em;list-style-type: none;">
+
+
+                                                        </ul>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+
+
+
+                    <li class="li-nv-dpdn-hover-btn li-6">
+                        <a href="feedback.html" class=" nav-links li-anima">
+                            Feedback
+                        </a>
+                    </li>
+
+
+                </ul>
+                <div class="nav-row-3">
+                    <div class="cart-icon-1">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <div class="cart-items dCartBtn">
+                            <span style="opacity: .5; text-transform:capitalize;font-weight:600"> no product in the
+                                cart</span>
+                        </div>
+                    </div>
+                    <div class="search-icon-2" id="search-icon-2">
+                        <i class="fa fa-search"
+                            style="width: inherit; height:inherit ;display: flex;justify-content: center;align-items: center; cursor: pointer;"
+                            id="CI1"></i>
+                        <div class="cart-items" id="CI2">
+                            <div class="nav-search-bar">
+                                <input type="text" placeholder="Search...">
+                                <div class="button">
+                                    <i class="fa fa-search" style="color: inherit;"></i>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+                    <!-- moble -->
+
+
+
+
+
+                    <div class="search-icon-3">
+                        <button class=" navbar-toggler-icon-hiddden" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
+
+                            <a href="#">
+                                <svg class="dots"></svg>
+                            </a>
+                    </div>
+                </div>
+                <div class="offcanvas offcanvas-end text-dark" style="height:100vh !important;" data-bs-scroll="true"
+                    data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling"
+                    aria-labelledby="offcanvasScrollingLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Offcanvas with body scrolling</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <div class="accordion accordion-flush" id="accordionFlushExample1">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseOne1" aria-expanded="false"
+                                        aria-controls="flush-collapseOne">
+                                        Information
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseOne1" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFlushExample1">
+                                    <div class="accordion-body">
+                                        <ul style="list-style-type: none;">
+                                            <li>
+                                                <div class="accordion accordion-flush" id="accordionFlushExample_t_1">
+                                                    <div class="accordion-item">
+                                                        <h2 class="accordion-header" id="flush-headingOne_d_1">
+                                                            <button class="accordion-button collapsed" type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#flush-collapseOne"
+                                                                aria-expanded="false" aria-controls="flush-collapseOne">
+                                                                Types Of Plants
+                                                                <!--<?>> -->
+                                                            </button>
+                                                        </h2>
+                                                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                                            aria-labelledby="flush-headingOne_d_1"
+                                                            data-bs-parent="#accordionFlushExample_t_1">
+                                                            <ul class="accordion-body cata_JS_FUNC_CLASS"
+                                                                style="list-style-type: none;">
+
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+        </div>
+        <!-- /moble -->
+
+
+        </nav>
+    </div>
+    <!-- /nav -->
+    <!-- bg -->
+    <div class="_background">
+
+        <div class="carousel-item active d-flex justify-content-center align-items-center" style="height: 100%;">
+            <img src="images/bg1.jpg" class="d-block w-100" alt="...">
+            <div class="container-fluid mx-5 text-light d-flex justify-content-center align-items-center"
+                style="background-color: rgba(0, 0, 0, 0.334); width: 100%; height: 100%; position: absolute; z-index: 4; top: 0;">
+                <div class="container">
+                    <div class="row justify-content-center flex-row align-items-center w-100 h-100">
+                        <div class="col-lg-8 col-md-12">
+                            <h1 class="mx-lg-5 my-sm-5 text-slide-right">Green Haven Awaits</h1>
+                            <p class="mx-lg-5 my-sm-3 mb-lg-0 text-slide-right">Step into Land Palace, a realm where
+                                opulence knows no bounds. Our lavish accommodations, adorned with intricate designs,
+                                offer a haven of tranquility. Indulge in a symphony of comfort and elegance, as every
+                                corner narrates a story of luxury. With unrivaled hospitality and breathtaking
+                                <span class="d-none d-lg-block">
+                                    views, your journey here promises an unforgettable escape. Discover a world where
+                                    your every desirereathtaking views, your journey here promises an unforgettable
+                                    escape. Discover a world where your every desirreathtaking views, your journey here
+                                    promises an unforgettable escape. Discover a world where your every desir is
+                                    fulfilled amidst the regal embrace of Land Palace.
+                                </span>
+                            </p>
+                            <div class="btn btn-outline-light mx-lg-5 my-sm-5 text-slide-right p-4 "
+                                style="font-weight: bold; font-size: 1rem;">Discover Now - Explore Our Collection</div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 text-slide-right text-center d-none d-lg-block">
+                            <img src="images/m1.jpg"
+                                style="height: 20em; width: 15em; border-radius: 5%; box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;"
+                                alt="">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <!-- /bg -->
+    <div class="container-fluid"></div>
+    </div>
+
+    <div class="container-fluid mt-3">
+
+        <div class="row gy-2">
+            <!-- Coloumn No. 1  -->
+            <div class="col col-md-6 col-lg-6 col-sm-12 col-12">
+                <div class="banner-item img-hover-effect">
+                    <div class="banner-img">
+                        <img src="images/2-1-570x500.jpg" alt="">
+                    </div>
+                    <div class="banner-content text-position-center">
+                        <span class="fw-medium">New Collection</span>
+                        <h3 class="fw-bold">
+                            Indoor Plant
+                        </h3>
+                        <div class="button-wrap">
+                            <a class="btn-custom-size btn-pronia-primary" href="shop.html">Shop
+                                Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Coloumn No. 2  -->
+            <div class="col-md-6 col-lg-6">
+                <div class="row gy-3">
+                    <!-- Coloumn No. 2 Sub coloumn 1 -->
+                    <div class="col-12">
+                        <div class="banner-item img-hover-effect">
+                            <div class="banner-img">
+                                <img src="images/2-2-570x235.jpg" alt="">
+                            </div>
+                            <div class="banner-style-2 banner-content text-position-center">
+                                <span class="collection fw-medium">Collection Of Cactus</span>
+                                <h3 class="fw-bold">
+                                    Plant Port
+                                </h3>
+                                <div class="button-wrap">
+                                    <a class="btn-custom-size btn-pronia-primary" href="shop.html">Shop
+                                        Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Coloumn No. 2 Sub coloumn 2 -->
+                    <div class="col col-12">
+                        <div class="banner-item img-hover-effect">
+                            <div class="banner-img">
+                                <img src="images/2-3-570x235.jpg" alt="">
+                            </div>
+                            <div class="banner-style-2 banner-content text-position-center">
+                                <span class="fw-medium">Collection Of Cactus</span>
+                                <h3 class="fw-bold">
+                                    Hanging Pots
+                                </h3>
+                                <div class="button-wrap">
+                                    <a class="btn-custom-size btn-pronia-primary" href="shop.html">Shop
+                                        Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <section class="bg-light py-5 mx-4">
+        <div class="container text-center text-slide-right">
+            <h2 class="display-4 mb-4" style="font-size: 1.5em; font-weight: bolder; border-bottom: 2px solid #333;">
+                About Our Journey</h2>
+            <p class="lead">At Plant Web, we're dedicated to cultivating a greener world. Our mission is to provide you
+                with exceptional plants, expert guidance, and a touch of nature's marvel for your space.</p>
+        </div>
+        <div class="container my-4">
+
+
+            <div class="container my-5 pt-5">
+                <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active bg-dark" aria-current="true"
+                            aria-label="First slide"></li>
+                        <li data-bs-target="#carouselId" data-bs-slide-to="1" class="bg-dark" aria-label="Second slide">
+                        </li>
+                        <li data-bs-target="#carouselId" data-bs-slide-to="2" class="bg-dark" aria-label="Third slide">
+                        </li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <div class="row justify-content-center align-items-start">
+                                <div class="col-md-6 col-sm-12">
+                                    <div class="row">
+                                        <h3 class="col-12">
+                                            Our Green Mission
+                                        </h3>
+                                        <p class="mt-4 col-12">
+                                            "Our Green Mission" is a commitment that drives our every endeavor. At our
+                                            core, we are
+                                            dedicated to fostering a greener and more sustainable world. Through our
+                                            passion for plants
+                                            and nature, we aim to inspire individuals and communities to embrace the
+                                            beauty and benefits
+                                            of the natural world.
+
+                                            From the moment we embarked on this journey, our goal has been to create a
+                                            positive impact
+                                            on the environment, one leaf at a time. We believe that by connecting people
+                                            with plants, we
+                                            can create spaces that are not only visually appealing but also contribute
+                                            to cleaner air,
+                                            improved well-being, and a harmonious coexistence with the planet.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="col-6 d-flex justify-content-center align-items-center m-lg-0 mx-sm-4">
+                                    <img src="images/New-Urban.jpg" style="width: 20rem;" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item ">
+                            <div class="row justify-content-center align-items-center">
+                                <div class="col-md-6 col-sm-12">
+                                    <div class="row">
+                                        <h3 class="col-12">
+                                            Plant Lovers at Heart
+                                        </h3>
+                                        <p class="mt-4 col-12">
+                                            "Plant Lovers at Heart" describes our core identity and passion. We are a
+                                            group of dedicated individuals who have an innate connection with and deep
+                                            affection for plants. Our love for the green world drives us to cultivate a
+                                            deeper understanding of plant life, care.
+                                            "Plant Lovers at Heart" describes our core identity and passion. We are a
+                                            group of dedicated individuals who have an innate connection with and deep
+                                            affection for plants. Our love for the green world drives us to cultivate a
+                                            deeper understanding of plant life, care.
+
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="col-6 d-flex justify-content-center align-items-center m-lg-0 mx-sm-4">
+                                    <img src="images/New-Urban.jpg" style="width: 20rem;" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item ">
+                            <div class="row justify-content-center align-items-center">
+                                <div class="col-md-6 col-sm-12">
+                                    <div class="row">
+                                        <h3 class="col-12">
+                                            Expert Horticulturists
+                                        </h3>
+                                        <p class="mt-4 col-12">
+                                            "Expert Horticulturists" refers to the skilled professionals who have a deep
+                                            understanding and specialized knowledge of plant cultivation, growth, and
+                                            care. These individuals possess expertise in various areas of horticulture,
+                                            which is the science and art of cultivating plants. Expert horticulturists
+                                            are often well-versed in topics such as plant biology, soil science, pest
+                                            management, and sustainable gardening practices.
+
+                                            In the context of an "About Us" section on a website related to plants, the
+                                            description for "Expert Horticulturists" might read:
+
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="col-6 d-flex justify-content-center align-items-center m-lg-0 mx-sm-4">
+                                    <img src="images/New-Urban.jpg" style="width: 20rem;" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <div class="container my-5">
+        <div class="container text-center text-slide-right">
+            <h2 class="display-4 mb-4" style="font-size: 1.5em; font-weight: bolder; border-bottom: 2px solid #333;">
+                Products</h2>
+            <p class="lead">The product section provides a concise overview of a particular item or service being offered. It typically includes key features, benefits, specifications, and sometimes pricing information. This section aims to give potential customers a clear understanding of what the product does,.</p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 ">
+                    <div class="row products">
+                        <!-- Product cards will be added here dynamically -->
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="container text-center text-slide-right">
+            <h2 class="display-4 mb-4" style="font-size: 1.5em; font-weight: bolder; border-bottom: 2px solid #333;">
+                fAQs</h2>
+            <p class="lead">FAQs, or Frequently Asked Questions, are a section that addresses common queries or concerns that customers might have about a product, service, company, or any relevant topic. This section aims to provide quick and helpful answers to questions that potential customers or users frequently ask..</p>
+        </div>
+        <section class="faq-sec">
+
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-12 col-12"> 
+                
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        How often should I water my plants?
+                      </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">The watering frequency varies depending on the type of plant. Generally, it's best to water when the top inch of soil feels dry. Overwatering can lead to root rot, so be cautious not to drown your plants.</div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        How can I prevent pests from damaging my plants?
+                      </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">Regularly inspect your plants for signs of pests like discolored leaves or webs. You can also use natural remedies like neem oil or introduce beneficial insects like ladybugs. Avoid over-fertilizing, as it can attract pests.</div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        What's your return policy?
+                      </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body"> We have a 30-day return policy for plants that are in good condition and have been cared for according to our guidelines. Please refer to our Returns & Refunds page for detailed information on the process.</div>
+                    </div>
+                  </div>
+             
+            </div>
+              <div class="col-lg-6 col-md-6 col-sm-12 col-12"> 
+            
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingFour">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseOne">
+                        What's the difference between "indoor" and "outdoor" plants?
+                      </button>
+                    </h2>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body"> Indoor plants are better suited for the controlled conditions of indoor environments, while outdoor plants thrive in garden beds, planters, or other outdoor settings. Be sure to choose plants that match your intended location.</div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingFive">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        Do you offer plant subscriptions or monthly plant boxes?
+                      </button>
+                    </h2>
+                    <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body"> Yes, we offer subscription options for plant enthusiasts! Explore our subscription plans to receive new plants and botanical goodies each month.</div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingSix">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                        How do I know if my plant is getting too much or too little water?
+                      </button>
+                    </h2>
+                    <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">Overwatered plants often show signs like yellowing leaves and soggy soil. Underwatered plants have dry, brittle leaves and parched soil. Adjust your watering routine based on these cues.</div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            </div>
+          </section>
+          
+          
+          
+          <div class="help-container">
+            <button id="help-button">
+                <i class="fa fa-question-circle"></i>
+            </button>
+        
+          </div>
+          
+          <div class="toast-container position-fixed bottom-0 end-0 p-3">
+            <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+              <div class="toast-header">
+                <strong class="me-auto">Contact Us</strong>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+              </div>
+              <div class="toast-body">
+                <div class="container">
+                  <form id="myForm">
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label fw-medium">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                    </div>
+                    <div class="mb-3">
+                      <label for="contact" class="form-label fw-medium">Contact</label>
+                      <input type="tel" class="form-control" id="contact" required>
+                      <p class="text-danger" id="cont-error"></p>
+                    </div>
+                    <div class="mb-3">
+                      <label for="comment" class="form-label fw-medium">Comment</label>
+                      <textarea class="form-control" style="resize: none;" id="comment" rows="3" required></textarea>
+                    </div>
+                  
+                    <button type="submit" class="contact-btn">Submit</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+          <div class="toast-container position-fixed bottom-0 end-0 p-3">
+            <div id="feedback" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+              
+              <div class="toast-body">
+                <div class="container">
+                  <form id="myForm">
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label fw-medium">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                    </div>
+                    <div class="mb-3">
+                      <label for="contact" class="form-label fw-medium">Contact</label>
+                      <input type="tel" class="form-control" id="contact" required>
+                      <p class="text-danger" id="cont-error"></p>
+                    </div>
+                    <div class="mb-3">
+                      <label for="comment" class="form-label fw-medium">Comment</label>
+                      <textarea class="form-control" style="resize: none;" id="comment" rows="3" required></textarea>
+                    </div>
+                  
+                    <button type="submit" class="contact-btn">Submit</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+<footer class="text-center text-lg-start bg-light text-muted">
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <div class="me-5 d-none d-lg-block">
+        <span>Get connected with us on social networks:</span>
+      </div>
+  
+      <div>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </section>
+  
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <div class="row mt-3">
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>Company name
+            </h6>
+            <p>
+              Here you can use rows and columns to organize your footer content. Lorem ipsum
+              dolor sit amet, consectetur adipisicing elit.
+            </p>
+          </div>
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              Products
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Angular</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">React</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Vue</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Laravel</a>
+            </p>
+          </div>
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">
+              Useful links
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Pricing</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Settings</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Orders</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Help</a>
+            </p>
+          </div>
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              info@example.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+            <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2021 Copyright:
+      <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+  </footer>
+
+    <script defr>
+       
+    </script>
+
+
+
+
+
+
+
+
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+    <script src="index.js"></script>
+</body>
+
+</html>
